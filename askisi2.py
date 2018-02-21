@@ -12,7 +12,11 @@ def compare_lists(l1,l2):
             s+=1
     return s
 for i in range(10):
-    num=input("please type a number : ")
+    while True:
+        num=input("please type a number : ")
+        if num>0:
+            if num<81:
+                break
     if i==0:
         pin=[num]
     else:
