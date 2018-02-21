@@ -13,7 +13,7 @@ def compare_lists(l1,l2):
     return s
 for i in range(10):
     while True:
-        num=input("please type a number : ")
+        num=input("please type a number between 1-80: ")
         if num>0:
             if num<81:
                 break
